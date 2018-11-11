@@ -581,14 +581,6 @@ public Sudoku(int n) {
 			
 		}
 		
-		for(int i=0; i<9; i++) {
-				
-				this.board[i][i] = copy.board[8-i][8-i];
-				
-				this.board[8-i][8-i] = copy.board[i][i];
-				
-			}
-		
 	}
 	
 	public void randomRow() {
